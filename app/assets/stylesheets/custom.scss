@@ -1,0 +1,98 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#presentationc {
+        display:none;
+}
+#menuc {
+        display:none;
+}
+#contactc {
+        display:none;
+}
+
+//.section1 {
+//  background-color: red;
+//  width: 100%;
+//  height: 80px;
+//}
+
+.section2 {
+background: asset-data-url('headerbea.png');
+width: 100%;
+height: 500px;
+background-size: cover;
+}
+
+.onglet {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+
+#carousel {
+position: relative;
+width:60%;
+margin:0 auto;
+padding-bottom: 10px;
+}
+
+#slides {
+overflow: hidden;
+position: relative;
+width: 100%;
+height: 250px;
+}
+
+#slides ul {
+list-style: none;
+width:100%;
+height:250px;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+ #slides li {
+width:100%;
+height:250px;
+float:left;
+text-align: center;
+position: relative;
+font-family:lato, sans-serif;
+}
+/* Styling for prev and next buttons */
+.btn-bar{
+    max-width: 346px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 40px;
+    width: 100%;
+}
+
+ #buttons {
+padding:0 0 5px 0;
+float:right;
+}
+
+#buttons a {
+text-align:center;
+display:block;
+font-size:50px;
+float:left;
+outline:0;
+margin:0 60px;
+color:#b14943;
+text-decoration:none;
+display:block;
+padding:9px;
+width:35px;
+}
+
+a#prev:hover, a#next:hover {
+color:#FFF;
+text-shadow:.5px 0px #b14943;
+}
